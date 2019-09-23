@@ -587,6 +587,7 @@ main {
         .main_kontakt .kontakt_main_form .user-form .content_form.content_form_message .message_input {
           width: 458px;
           height: 185px;
+          margin-top: 100px;
           resize: none !important;
           background-color: #E0DCCD  !important;
           padding: 10px !important;
