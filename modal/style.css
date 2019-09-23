@@ -25,6 +25,8 @@ body.modal-open {
    position: fixed;
 }
 
+
+
 .closeBtn::before {
     content: "";
     position: absolute;
@@ -67,6 +69,7 @@ body.modal-open {
     position: fixed;
     right: 0;
     perspective: 500px;
+    background-color: rgba(0,0,0,0.6);
     
 }
 
