@@ -566,7 +566,7 @@ main {
       padding-top: 11px;
       color: #fff; }
   .main_kontakt .kontakt_main_form {
-    margin-top: 40px;
+    margin-top: 39px;
     margin-left: 11px;
     margin-right: 60px; }
     .main_kontakt .kontakt_main_form .user-form .content_form {
@@ -586,11 +586,7 @@ main {
         margin-top: 13px; }
         .main_kontakt .kontakt_main_form .user-form .content_form.content_form_message .message_input {
           width: 458px;
-          height: 185px;
-          resize: none;
-          background-color: #E0DCCD;
-          padding: 10px;
-          border: 1px solid #F1AE84; }
+          height: 185px; }
     .main_kontakt .kontakt_main_form .user-form .modal-send:hover {
       cursor: pointer;
       background-color: #f2ab7f;
