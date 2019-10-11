@@ -1,0 +1,150 @@
+@charset 'utf-8';
+@media only screen and (max-width: 767px) {
+
+	@mixin button-defolt {
+		padding-top: 2px;
+		padding-bottom: 2px;
+		padding-left: 5px;
+		padding-right: 5px;
+		border-radius: 20px;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 6px;
+		line-height: 12px;
+	}
+
+	.main_header {
+		.container_header {
+			margin: 0;
+			.logo_tittle {
+				max-width: 25%;
+				margin-top: 0;
+				p {
+					font-size: 6px;
+					margin-bottom: -11px;
+					line-height: 6px;
+					margin-top: 8px;
+				}
+				span {
+					font-size: 6px;
+					line-height: 6px;
+					padding-left: 8px;
+				}
+			}
+			.header_main_nav {
+				max-width: 46%;
+				.element-site {
+					.element_nav a {
+						padding-right: 0;
+					}
+
+					a {
+						margin: 0;
+						font-size: 6px;
+						padding-left: 0;
+						padding-top: 0;
+						padding-bottom: 0;
+						padding-right: 3px;
+					}
+
+				}
+			} 
+			.header_social_nav {
+				max-width: 15%;
+				.element-site {
+					margin: 0;
+					li {
+						padding: 0;
+						padding-right: 3px;	
+						a {
+							img {
+								width: 10px;
+							}
+						}
+					}
+					li:last-child {
+						padding-right: 0;
+					}
+				}
+			}
+			.btn_wrap_header {
+				max-width: 14%;
+				.element_btn {
+					margin:0;
+					margin-top: 4px;
+					.button_header {
+						@include button-defolt;
+						text-transform: lowercase;
+					}
+				}
+			}
+		}
+		.main_header_title {
+			.main_header_titile_one {
+				font-size: 10px;
+				line-height: 15px;
+				margin-bottom: 0px;
+				margin-top: 8px;
+			}
+			.main_header_titile_two {
+				font-size: 15px;
+				line-height: 20px;
+				margin-bottom: 0;
+				margin-bottom: -5px;
+			}
+			.btn_title_header {
+				@include button-defolt;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+	}
+	.main_title {
+		padding-top: 25px;
+		padding-bottom: 25px;
+
+		.container {
+			padding-left: 10px;
+			padding-right: 10px;
+			.row {
+				.main_title_one {
+					max-width: 30%;
+					.main_title_terra {
+						font-size: 18px;
+						line-height: 20px;
+					}
+				}
+				.main_title_two {
+					max-width: 56%;
+					.main_title_description {
+						margin-top: 5px;
+						font-size: 6px;
+						line-height: 6px;
+					}
+				}
+				.main_title_three {
+					max-width: 13%;
+					.btn_title_element {
+						margin-left: 8%;
+					}
+				}
+			}
+		}
+		.btn_title_element {
+			margin-top: 3%;
+		 .btn_title_main {
+			@include button-defolt;
+			padding-left: 5px;
+			padding-right: 5px;
+			line-height: 6px;
+			font-size: 4px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	}
+	}
+}
+
+

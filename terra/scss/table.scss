@@ -1,0 +1,141 @@
+@charset 'utf-8';
+@media only screen and (min-width: 767px) and (max-width: 1120px) {
+
+	@mixin button-defolt {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 20px;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 8px;
+		line-height: 12px;
+	}
+
+	.main_header {
+		.container_header {
+			margin: 0;
+			.logo_tittle {
+				margin-top: 0;
+				p {
+					font-size: 8px;
+					margin-bottom: -11px;
+					line-height: 8px;
+					margin-top: 8px;
+				}
+				span {
+					font-size: 8px;
+					line-height: 8px;
+					padding-left: 8px;
+				}
+			}
+			.header_main_nav {
+				.element-site {
+
+
+					a {
+						font-size: 8px;
+						padding-left: 10px;
+						padding-top: 10px;
+						padding-bottom: 10px;
+						padding-right: 5px;
+						margin-right: 5px;
+					}
+
+				}
+			} 
+			.header_social_nav {
+				.element-site {
+					margin: 0;
+					margin-top: 3px;
+					li {
+						padding: 0;
+						padding-right: 8px;
+						a {
+							img {
+								width: 15px;
+							}
+						}
+					}
+					li:last-child {
+						padding-right: 0;
+					}
+				}
+			}
+			.btn_wrap_header {
+				.element_btn {
+					margin:0;
+					margin-top: 5px;
+					.button_header {
+						@include button-defolt;
+						text-transform: lowercase;
+					}
+				}
+			}
+		}
+		.main_header_title {
+			.main_header_titile_one {
+				font-size: 20px;
+				line-height: 20px;
+				margin-bottom: 9px;
+				margin-top: 8%;
+			}
+			.main_header_titile_two {
+				font-size: 25px;
+				line-height: 25px;
+				margin-bottom: 15px;
+			}
+			.btn_title_header {
+				@include button-defolt;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+	}
+	.main_title {
+		padding-top: 25px;
+		padding-bottom: 25px;
+
+		.container {
+			padding-left: 10px;
+			padding-right: 10px;
+			.row {
+				.main_title_one {
+					margin-right: 20px;
+					.main_title_terra {
+						font-size: 32px;
+						line-height: 32px;
+					}
+				}
+				.main_title_two {
+					.main_title_description {
+						margin-top: 8px;
+						font-size: 11px;
+						line-height: 13px;
+					}
+				}
+				.main_title_three {
+					.btn_title_element {
+						margin-left: 8%;
+					}
+				}
+			}
+		}
+		.btn_title_element {
+			
+			margin-left: 15%;
+			.btn_title_main {
+				@include button-defolt;
+				padding-left: 10px;
+				padding-right: 10px;
+				line-height: 8px;
+				font-size: 8px;
+				padding-top: 8px;
+				padding-bottom: 8px;
+			}
+		}
+	}
+}
