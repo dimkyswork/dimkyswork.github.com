@@ -292,6 +292,38 @@ body {
       padding-bottom: 13px; }
 
 .main_title {
-  padding-top: 90px; }
+  padding-top: 90px;
+  padding-bottom: 85px;
+  border-bottom: 1px solid #c1c3c5; }
+  .main_title .main_title_terra {
+    font-size: 62px;
+    font-family: "Gotham Pro Black";
+    line-height: 62px;
+    color: #333333;
+    text-transform: uppercase; }
+  .main_title .main_title_description {
+    font-size: 17px;
+    line-height: 17px;
+    font-family: "Gotham Pro Light";
+    color: #666666;
+    margin-top: 12px; }
+  .main_title .btn_title_element {
+    margin-left: 25%;
+    margin-top: 18%; }
+    .main_title .btn_title_element .btn_title_main {
+      padding-top: 8px;
+      padding-bottom: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 20px;
+      background-color: #002eff;
+      cursor: pointer;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 15px;
+      line-height: 15px;
+      font-size: 12px;
+      padding-top: 13px;
+      padding-bottom: 13px; }
 
 /*# sourceMappingURL=style.css.map */
