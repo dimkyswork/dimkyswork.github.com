@@ -44,13 +44,6 @@ for ($t=0; $t<=count($new_array); $t++) {
     break;
   }
 }
-
-
-
-    // foreach($new_array as $myarr) {
-    //   echo ($myarr);
-    //   echo '<br />';
-    // }
   }
 
 
